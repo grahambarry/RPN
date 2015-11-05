@@ -5,17 +5,17 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.1.5
 
-* System dependencies
+* Rails 4.2.4
+
+* RpnCalcul;ator Gem
 
 * Configuration
 
-* Database creation
+* Database creation: None
 
-* Database initialization
-
-* How to run the test suite
+* Database initialization: None
 
 * Services (job queues, cache servers, search engines, etc.)
 
