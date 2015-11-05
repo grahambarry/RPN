@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+  <title>Graham Barry RPN Calculator</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <%= render :partial => "layouts/header" %>
+</body>
+<div class="container mymargin">
+  <% flash.each do |name, msg| %>
+    <%= content_tag :div, msg, class: "alert alert-info" %>
+  <% end %>
+  <%= yield %>
+
