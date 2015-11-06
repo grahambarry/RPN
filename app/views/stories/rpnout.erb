@@ -3,17 +3,18 @@
 <p> Please enter your expressions in Reverse Polish notation (RPN) </p>
 
 <%= bootstrap_form_tag  url: '/validate' do |f| %>
-  <%= f.text_field :search_string, placeholder: 'Enter RPN for evaluation', hide_label: true, class: "form-control" %> 
+
+  <%= f.text_field :search_string, inline_errors: true,  append: @result.map(&:inspect).join(' '), value: @result.map(&:inspect).join(' '), placeholder: 'Enter RPN for evaluation', hide_label: true, class: "form-control" %> 
   <%= f.submit value ="Evaluate!", class: "btn btn-primary" %>
  
 
 <hr>
-<h3>
-Result:
-( <%= @input1 %> ) evaluates to: <h2> <%= @result %>  </h2>
-<hr>
 
+<h3>
+	
+<b>Evaluates to: <% "   " %> </b>  <small><span class="glyphicon glyphicon-menu-down" aria-hidden="true">     </span> </small>  <h2> <b>Result:   <%= @result %>  </b></h2>
 </h3>
+<hr>
 
 
 </div>

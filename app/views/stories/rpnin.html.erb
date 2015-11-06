@@ -2,18 +2,11 @@
 <h1>RPN Calculator</h1>
 <p> Please enter your expressions in Reverse Polish notation (RPN) </p>
 
-<%= bootstrap_form_tag  url: '/validate' do |f| %>
+<%= bootstrap_form_tag  url: '/validate'  do |f| %>
   <%= f.text_field :search_string, placeholder: 'Enter RPN for evaluation', hide_label: true, class: "form-control" %> 
   <%= f.submit value ="Evaluate!", class: "btn btn-primary" %>
  
 
-<hr>
-<h3>
-Result:
-( <%= @input1 %> ) evaluates to: <h2> <%= @result %>  </h2>
-</h3>
-<hr>
-</div>
 
 
 <% end %>

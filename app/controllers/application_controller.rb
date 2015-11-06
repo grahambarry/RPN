@@ -3,3 +3,13 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 end
+
+HTTP_ERRORS = [
+  EOFError,
+  Errno::ECONNRESET,
+  Errno::EINVAL,
+  Net::HTTPBadResponse,
+  Net::HTTPHeaderSyntaxError,
+  Net::ProtocolError,
+  Timeout::Error
+]

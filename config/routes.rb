@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
    root "stories#rpnin"
-  get '/check', :controller=>'stories', :action=>'rpnin'
+
   post '/validate', :controller=>'stories', :action=>'rpnout'
+  get '/validate', :controller=>'stories', :action=>'rpnin'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
