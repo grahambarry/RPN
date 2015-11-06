@@ -18,7 +18,7 @@ begin
 # Possible extension - instead of One error message make custom instructional error messages.
 
 rescue => error
-flash[:info] = "Apologies - Error Please Try Again"
+flash[:info] = "Please Enter Valid RPN Expression"
 
       redirect_to root_url
 
