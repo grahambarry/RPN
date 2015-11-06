@@ -15136,3 +15136,46 @@ Processing by StoriesController#rpnout as HTML
   Rendered stories/rpnout.erb within layouts/application (11.0ms)
   Rendered layouts/_header.html.erb (0.0ms)
 Completed 200 OK in 270ms (Views: 270.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-06 00:55:54 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StoriesController#rpnin as HTML
+  Rendered stories/rpnin.html.erb within layouts/application (23.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 504ms (Views: 489.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-06 00:56:32 +0000
+Processing by StoriesController#rpnin as HTML
+  Rendered stories/rpnin.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 259ms (Views: 259.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-06 00:57:14 +0000
+Processing by StoriesController#rpnin as HTML
+  Rendered stories/rpnin.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 293ms (Views: 293.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-06 00:57:44 +0000
+Processing by StoriesController#rpnin as HTML
+  Rendered stories/rpnin.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 260ms (Views: 260.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-06 00:58:09 +0000
+Processing by StoriesController#rpnin as HTML
+  Rendered stories/rpnin.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 262ms (Views: 262.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-06 00:58:30 +0000
+Processing by StoriesController#rpnin as HTML
+  Rendered stories/rpnin.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 264ms (Views: 263.0ms | ActiveRecord: 0.0ms)
